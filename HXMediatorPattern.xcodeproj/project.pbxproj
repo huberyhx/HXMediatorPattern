@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83A669E9222E667E003ED836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A669E8222E667E003ED836 /* AppDelegate.m */; };
+		83A669EC222E667E003ED836 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A669EB222E667E003ED836 /* ViewController.m */; };
+		83A669EF222E667E003ED836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A669ED222E667E003ED836 /* Main.storyboard */; };
+		83A669F1222E6680003ED836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A669F0222E6680003ED836 /* Assets.xcassets */; };
+		83A669F4222E6680003ED836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A669F2222E6680003ED836 /* LaunchScreen.storyboard */; };
+		83A669F7222E6680003ED836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A669F6222E6680003ED836 /* main.m */; };
+		83A669FF222E66EC003ED836 /* HXAbstractClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A669FE222E66EC003ED836 /* HXAbstractClient.m */; };
+		83A66A02222E66FB003ED836 /* HXAbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A66A01222E66FB003ED836 /* HXAbstractMediator.m */; };
+		83A66A0A222E67FB003ED836 /* HXClientWang.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A66A09222E67FB003ED836 /* HXClientWang.m */; };
+		83A66A0D222E6817003ED836 /* HXMediatorBlack.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A66A0C222E6817003ED836 /* HXMediatorBlack.m */; };
+		83A66A10222E686B003ED836 /* HXClientLi.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A66A0F222E686B003ED836 /* HXClientLi.m */; };
+		83A66A13222E6878003ED836 /* HXClientZhang.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A66A12222E6878003ED836 /* HXClientZhang.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83A669E4222E667E003ED836 /* HXMediatorPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXMediatorPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A669E7222E667E003ED836 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83A669E8222E667E003ED836 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83A669EA222E667E003ED836 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83A669EB222E667E003ED836 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83A669EE222E667E003ED836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83A669F0222E6680003ED836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A669F3222E6680003ED836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83A669F5222E6680003ED836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A669F6222E6680003ED836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83A669FD222E66EC003ED836 /* HXAbstractClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXAbstractClient.h; sourceTree = "<group>"; };
+		83A669FE222E66EC003ED836 /* HXAbstractClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAbstractClient.m; sourceTree = "<group>"; };
+		83A66A00222E66FB003ED836 /* HXAbstractMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXAbstractMediator.h; sourceTree = "<group>"; };
+		83A66A01222E66FB003ED836 /* HXAbstractMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAbstractMediator.m; sourceTree = "<group>"; };
+		83A66A08222E67FB003ED836 /* HXClientWang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXClientWang.h; sourceTree = "<group>"; };
+		83A66A09222E67FB003ED836 /* HXClientWang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXClientWang.m; sourceTree = "<group>"; };
+		83A66A0B222E6817003ED836 /* HXMediatorBlack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXMediatorBlack.h; sourceTree = "<group>"; };
+		83A66A0C222E6817003ED836 /* HXMediatorBlack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXMediatorBlack.m; sourceTree = "<group>"; };
+		83A66A0E222E686B003ED836 /* HXClientLi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXClientLi.h; sourceTree = "<group>"; };
+		83A66A0F222E686B003ED836 /* HXClientLi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXClientLi.m; sourceTree = "<group>"; };
+		83A66A11222E6878003ED836 /* HXClientZhang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXClientZhang.h; sourceTree = "<group>"; };
+		83A66A12222E6878003ED836 /* HXClientZhang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXClientZhang.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A669E1222E667E003ED836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A669DB222E667E003ED836 = {
+			isa = PBXGroup;
+			children = (
+				83A669E6222E667E003ED836 /* HXMediatorPattern */,
+				83A669E5222E667E003ED836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A669E5222E667E003ED836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A669E4222E667E003ED836 /* HXMediatorPattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A669E6222E667E003ED836 /* HXMediatorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				83A669E7222E667E003ED836 /* AppDelegate.h */,
+				83A669E8222E667E003ED836 /* AppDelegate.m */,
+				83A669EA222E667E003ED836 /* ViewController.h */,
+				83A669EB222E667E003ED836 /* ViewController.m */,
+				83A66A04222E6759003ED836 /* Client */,
+				83A66A03222E6744003ED836 /* Mediator */,
+				83A669F0222E6680003ED836 /* Assets.xcassets */,
+				83A669ED222E667E003ED836 /* Main.storyboard */,
+				83A669F2222E6680003ED836 /* LaunchScreen.storyboard */,
+				83A669F5222E6680003ED836 /* Info.plist */,
+				83A669F6222E6680003ED836 /* main.m */,
+			);
+			path = HXMediatorPattern;
+			sourceTree = "<group>";
+		};
+		83A66A03222E6744003ED836 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				83A66A00222E66FB003ED836 /* HXAbstractMediator.h */,
+				83A66A01222E66FB003ED836 /* HXAbstractMediator.m */,
+				83A66A0B222E6817003ED836 /* HXMediatorBlack.h */,
+				83A66A0C222E6817003ED836 /* HXMediatorBlack.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		83A66A04222E6759003ED836 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				83A669FD222E66EC003ED836 /* HXAbstractClient.h */,
+				83A669FE222E66EC003ED836 /* HXAbstractClient.m */,
+				83A66A08222E67FB003ED836 /* HXClientWang.h */,
+				83A66A09222E67FB003ED836 /* HXClientWang.m */,
+				83A66A0E222E686B003ED836 /* HXClientLi.h */,
+				83A66A0F222E686B003ED836 /* HXClientLi.m */,
+				83A66A11222E6878003ED836 /* HXClientZhang.h */,
+				83A66A12222E6878003ED836 /* HXClientZhang.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A669E3222E667E003ED836 /* HXMediatorPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A669FA222E6680003ED836 /* Build configuration list for PBXNativeTarget "HXMediatorPattern" */;
+			buildPhases = (
+				83A669E0222E667E003ED836 /* Sources */,
+				83A669E1222E667E003ED836 /* Frameworks */,
+				83A669E2222E667E003ED836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXMediatorPattern;
+			productName = HXMediatorPattern;
+			productReference = 83A669E4222E667E003ED836 /* HXMediatorPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A669DC222E667E003ED836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = haoxu.wang;
+				TargetAttributes = {
+					83A669E3222E667E003ED836 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 83A669DF222E667E003ED836 /* Build configuration list for PBXProject "HXMediatorPattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83A669DB222E667E003ED836;
+			productRefGroup = 83A669E5222E667E003ED836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A669E3222E667E003ED836 /* HXMediatorPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A669E2222E667E003ED836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A669F4222E6680003ED836 /* LaunchScreen.storyboard in Resources */,
+				83A669F1222E6680003ED836 /* Assets.xcassets in Resources */,
+				83A669EF222E667E003ED836 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A669E0222E667E003ED836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A669FF222E66EC003ED836 /* HXAbstractClient.m in Sources */,
+				83A669EC222E667E003ED836 /* ViewController.m in Sources */,
+				83A669F7222E6680003ED836 /* main.m in Sources */,
+				83A66A10222E686B003ED836 /* HXClientLi.m in Sources */,
+				83A669E9222E667E003ED836 /* AppDelegate.m in Sources */,
+				83A66A02222E66FB003ED836 /* HXAbstractMediator.m in Sources */,
+				83A66A0D222E6817003ED836 /* HXMediatorBlack.m in Sources */,
+				83A66A13222E6878003ED836 /* HXClientZhang.m in Sources */,
+				83A66A0A222E67FB003ED836 /* HXClientWang.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83A669ED222E667E003ED836 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A669EE222E667E003ED836 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83A669F2222E6680003ED836 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A669F3222E6680003ED836 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A669F8222E6680003ED836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83A669F9222E6680003ED836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A669FB222E6680003ED836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HXMediatorPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.HXMediatorPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83A669FC222E6680003ED836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HXMediatorPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.HXMediatorPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A669DF222E667E003ED836 /* Build configuration list for PBXProject "HXMediatorPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A669F8222E6680003ED836 /* Debug */,
+				83A669F9222E6680003ED836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A669FA222E6680003ED836 /* Build configuration list for PBXNativeTarget "HXMediatorPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A669FB222E6680003ED836 /* Debug */,
+				83A669FC222E6680003ED836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A669DC222E667E003ED836 /* Project object */;
+}
