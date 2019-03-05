@@ -12,7 +12,7 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        self.name = @"黑中介房屋中介公司";
+        self.name = @"黑中介房屋中介公司, 不黑不要钱";
     }
     return self;
 }
